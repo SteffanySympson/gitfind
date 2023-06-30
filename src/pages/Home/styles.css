@@ -1,0 +1,89 @@
+.content{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.background{
+    position: absolute;
+    height: 100vh;
+    left: -400px;
+    top: 25px;
+}
+
+.informations{
+    width:60%;
+    margin-right: 90px;
+    margin-top: 40px;
+    color: #fff;
+}
+
+.userInput{
+    width: 85%;
+    height: 24px;
+    top: 81px;
+    left: 249px;
+    border-radius: 22px;
+    min-width: 250px;
+    margin-right: 12px;
+    border: 1px solid #999999;
+    background: transparent;
+    font-size: 18px;
+    padding: 10px;
+    color:#fff;
+}
+
+.button{
+    border: 1px solid #999999;
+    border-radius: 22px;
+    margin-right: 12px;
+    background: #2D333B;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    margin: 40px 0;
+    
+}
+
+.profileImage{
+    width: 140px;
+    height: 140px;
+    border-radius: 80px;
+    border: 3px solid #ffffff;
+    margin-right: 32px;
+}
+
+.profile h3{
+    color: #fff;
+    font-size: 32px;
+    margin: 0;
+
+}
+
+.profile span{
+    display: block;
+    color: #999999;
+    font-size:20px;
+    margin: 0;
+
+}
+
+.profile p{
+    color: #fff;
+    font-size: 18px;
+    margin: 20px 0 0 0;
+
+}
+
+.repositories h2{
+    font-size: 28px;
+    text-align: center;
+    color: #fff;
+    margin:12px 0;
+}
